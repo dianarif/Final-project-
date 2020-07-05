@@ -1,0 +1,13 @@
+platform :ios, '8.1'
+target "CarMa" do
+pod 'GoogleSignIn'
+pod 'GoogleMaps'
+inherit! :search_paths
+use_frameworks!
+pod 'Braintree'
+end
+
+
+  
+
+

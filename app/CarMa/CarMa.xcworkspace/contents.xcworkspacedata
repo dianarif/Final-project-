@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CarMa.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:CarMa"
+      name = "CarMa">
+      <FileRef
+         location = "group:CarMa/AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CarMa/newUserViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CarMa/SceneDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CarMa/ViewController.swift">
+      </FileRef>
+      <Group
+         location = "group:CarMa"
+         name = "Main.storyboard">
+         <FileRef
+            location = "group:CarMa/Base.lproj/Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:CarMa/Assets.xcassets">
+      </FileRef>
+      <Group
+         location = "group:CarMa"
+         name = "LaunchScreen.storyboard">
+         <FileRef
+            location = "group:CarMa/Base.lproj/LaunchScreen.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:CarMa/Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:CarMa/Usermodel.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CarMa/Baseconnection.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

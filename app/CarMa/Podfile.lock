@@ -1,0 +1,71 @@
+PODS:
+  - AppAuth (1.3.0):
+    - AppAuth/Core (= 1.3.0)
+    - AppAuth/ExternalUserAgent (= 1.3.0)
+  - AppAuth/Core (1.3.0)
+  - AppAuth/ExternalUserAgent (1.3.0)
+  - Braintree (4.32.1):
+    - Braintree/Card (= 4.32.1)
+    - Braintree/Core (= 4.32.1)
+    - Braintree/PayPal (= 4.32.1)
+    - Braintree/UI (= 4.32.1)
+  - Braintree/Card (4.32.1):
+    - Braintree/Core
+  - Braintree/Core (4.32.1)
+  - Braintree/PayPal (4.32.1):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.32.1):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.32.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.32.1)
+  - Braintree/UI (4.32.1):
+    - Braintree/Card
+    - Braintree/Core
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.3.1):
+    - GTMSessionFetcher/Full (= 1.3.1)
+  - GTMSessionFetcher/Core (1.3.1)
+  - GTMSessionFetcher/Full (1.3.1):
+    - GTMSessionFetcher/Core (= 1.3.1)
+
+DEPENDENCIES:
+  - Braintree
+  - GoogleMaps
+  - GoogleSignIn
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Braintree
+    - GoogleMaps
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+
+SPEC CHECKSUMS:
+  AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
+  Braintree: b06d2b42f0c591e508f7f538a7cc6715af1958b7
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
+
+PODFILE CHECKSUM: 76e883943c4ead0a0f0c6f374c5d12bd06738a51
+
+COCOAPODS: 1.8.4
